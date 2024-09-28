@@ -1,0 +1,64 @@
+/* frontend/styles.css */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none; /* Impede redimensionamento */
+}
+
+textarea:focus {
+  border-color: #007bff; /* Cor da borda ao focar */
+  outline: none; /* Remove contorno padrão */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff; /* Cor do botão */
+  color: white;
+  font-size: 16px;
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f8f9fa; /* Cor de fundo da caixa de resultado */
+  border-left: 4px solid #007bff; /* Borda lateral para destacar */
+}
+
+.result-box p {
+  margin: 0; /* Remove margens padrão dos parágrafos */
+}
