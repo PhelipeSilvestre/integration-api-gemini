@@ -12,7 +12,6 @@ Um gerador de ideias de startup que utiliza a API do Gemini para fornecer sugest
 - [Boas Práticas](#boas-práticas)
 - [Segurança](#segurança)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Tecnologias Utilizadas
 
@@ -166,10 +165,6 @@ Certifique-se de ter o Node.js e o Git instalados em sua máquina.
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-### Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
 
 
 ### Melhores Práticas na Documentação
